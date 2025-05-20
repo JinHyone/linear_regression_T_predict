@@ -23,7 +23,7 @@ df['day'] = df['datetime'].dt.day
 df['hour'] = df['datetime'].dt.hour
 
 
-train_data = df[0:78888]  # 2010.01.01-2019.12.31
+train_data = df[0:78888]  # 2011.01.01-2019.12.31
 test_data = df[78889:-1]  # 2020.01.01-2020.12.31
 
 # 훈련 데이터
